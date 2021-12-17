@@ -2,7 +2,7 @@
     background-image: url("./assests/backgrounds/h_img.jpg");
     height: 800px;
     text-align: center;
-    color: aliceblue;
+    color: whitesmoke;
     padding: 200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,10 +21,10 @@ h2 {
 
 .three {
     background-image: url("./assests/backgrounds/s_image.jpg");
-    height: 300px;
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    color: aliceblue;
-    padding: 50px;
+    color: whitesmoke;
+    padding-top: 150px;
 }
