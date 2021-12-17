@@ -59,3 +59,25 @@ h2 {
 .five {
     text-align: center;
 }
+
+.box {
+    padding-bottom: 0 10px 0 10px;
+}
+
+.six {
+    background-image: url("./assests/backgrounds/c_image.jpg");
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    padding-left: 30px;
+}
