@@ -6,4 +6,15 @@
     padding: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    font-weight: bolder;
+}
+
+.two {
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    font-weight: bold;
 }
