@@ -30,7 +30,7 @@ h2 {
 }
 
 .four {
-    height: 400px;
+    height: 300px;
     font-weight: bold;
     text-align: center;
     padding: 40px;
@@ -54,4 +54,8 @@ h2 {
 
 .hide {
     display: none;
+}
+
+.five {
+    text-align: center;
 }
