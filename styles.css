@@ -1,0 +1,9 @@
+.one {
+    background-image: url("./assests/backgrounds/h_img.jpg");
+    height: 800px;
+    text-align: center;
+    color: aliceblue;
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
