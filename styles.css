@@ -33,4 +33,25 @@ h2 {
     height: 400px;
     font-weight: bold;
     text-align: center;
+    padding: 40px;
+}
+
+
+/*hover*/
+
+#1hover {
+    position: relative;
+    color: black;
+}
+
+.text {
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+
+.hide {
+    display: none;
 }
