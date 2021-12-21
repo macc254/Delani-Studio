@@ -1,4 +1,4 @@
-.one {
+.welcome {
     background-image: url("./assests/backgrounds/h_img.jpg");
     height: 800px;
     text-align: center;
@@ -9,7 +9,7 @@
     font-weight: bolder;
 }
 
-.two {
+.about {
     height: 300px;
     text-align: center;
     padding-top: 50px;
@@ -19,7 +19,7 @@ h2 {
     font-weight: bold;
 }
 
-.three {
+.services {
     background-image: url("./assests/backgrounds/s_image.jpg");
     height: 400px;
     background-size: cover;
@@ -29,17 +29,22 @@ h2 {
     padding-top: 150px;
 }
 
-.four {
-    height: 300px;
+.whatwedo {
+    height: 400px;
     font-weight: bold;
     text-align: center;
     padding: 40px;
+    text-align: center;
+}
+
+.content {
+    font-weight: normal;
 }
 
 
-/*hover*/
-
-#1hover {
+/* hover #todo,
+#todev,
+#tomanage {
     position: relative;
     color: black;
 }
@@ -54,24 +59,62 @@ h2 {
 
 .hide {
     display: none;
-}
+} */
 
-.five {
+.portfolio {
     text-align: center;
 }
 
-.box {
-    padding-bottom: 0 10px 0 10px;
-}
-
-.six {
+.contact {
     background-image: url("./assests/backgrounds/c_image.jpg");
     height: 700px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     color: whitesmoke;
     padding-top: 100px;
+}
+
+input[type=text] {
+    width: 30%;
+    color: whitesmoke;
+    background-color: transparent;
+    border: solid whitesmoke 1px;
+    padding: 15px;
+    margin: 20px;
+}
+
+input[type=email] {
+    width: 30%;
+    color: whitesmoke;
+    background-color: transparent;
+    border: solid whitesmoke 1px;
+    padding: 15px;
+    margin: 20px;
+}
+
+textarea {
+    height: 200px;
+    width: 60%;
+    color: whitesmoke;
+    background-color: transparent;
+    border: solid whitesmoke 1px;
+    margin: 20px;
+}
+
+::placeholder {
+    color: whitesmoke;
+}
+
+input[type=button],
+input[type=reset] {
+    background-color: transparent;
+    border: solid whitesmoke 1px;
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .footer {

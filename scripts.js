@@ -1,13 +1,15 @@
 $(document).ready(function() {
-    $('#1hover').hover(function() {
-        $(this).stop().animate({
-            opacity: .4
-        }, 200);
-        $('.text').removeClass('hide');
-    }, function() {
-        $(this).stop().animate({
-            opacity: 1
-        }, 500);
-        $('.text').addClass('hide');
+    $('.back').hide();
+
+    $('.front', '.flashcard').on('click', function() {
+        $(this).hide();
+        $(this).siblings('.back').show();
+    });
+
+
+
+    $('.back', '.flashcard').on('click', function() {
+        $(this).hide();
+        $(this).siblings('.front').show();
     });
 });

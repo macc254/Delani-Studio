@@ -15,14 +15,14 @@
 
 
 <body>
-    <div class="one">
+    <div class="welcome">
         <img src="./assests/logos/logo.png"><br><br><br><br>
         <h1>WELCOME</h1><br>
         <h1>TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</p><br><br><br><br><br><br>
         <img src="./assests/mouse_click.png" alt="logo">
     </div>
-    <div class="two">
+    <div class="about">
         <h2>ABOUT US</h2>
         <p>When you work with us, you are part of a team of collaborators.All aspects of our software development are intergrated, interactive
             <br> and agile.</p>
@@ -30,48 +30,67 @@
         <p>We start each project by understanding ou business goals the user's needs and the product requirements.</p>
         <p>Then we help translate them unto effective and elegant solutions.</p>
     </div>
-    <div class="three">
+    <div class="services">
         <h2>SERVICES</h2>
         <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
         <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
         <p>Based on your requirements we can provide a complete offering or just the pieces you need.</p>
     </div>
-    <div class="four">
+    <div class="whatwedo">
         <h2>WHAT WE DO</h2><br><br>
         <div class="row">
-            <div class="col-md-4">
-                <div id="1hover">
-                    <div class="text-hide">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
-                        user feedback and work with you to make sure what gets built is what is needed.</div>
-                    <a> <img src="./assests/services_icons/design_icon.png">
-                    </a>
-                    <p>DESIGN</p>
+            <div class="col-sm">
+                <div class="flashcard">
+                    <div class="p-3 front ">
+                        <img src="./assests/services_icons/design_icon.png">
+                        <p>DESIGN</p>
+                    </div>
+                    <!-- end front -->
+                    <div class="p-3 back ">
+                        <p>DESIGN</p>
+
+                        <p class="content">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
+                            user feedback and work with you to make sure what gets built is what is needed.</div>
+                    <!-- end back -->
                 </div>
+                <!-- end flashcard -->
             </div>
 
-            <div class="col-md-4">
-                <div id="1hover">
-                    <div class="text-hide">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair
-                        programming.
+            <div class="col-sm">
+                <div class="flashcard">
+                    <div class="p-3 front ">
+                        <img src="./assests/services_icons/dev_icon.png">
+                        <p>DEVELOPMENT</p>
                     </div>
-                    <a> <img src="./assests/services_icons/design_icon.png">
-                    </a>
-                    <p>DEVELOPMENT</p>
+                    <!-- end front -->
+                    <div class="p-3 back ">
+                        <p>DEVELOPMENT</p>
+                        <p class="content">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and
+                            pair programming.</p>
+                    </div>
+                    <!-- end back -->
                 </div>
+                <!-- end flashcard -->
             </div>
 
-            <div class="col-md-4">
-                <div id="1hover">
-                    <div class="text-hide">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.
+            <div class="col-sm">
+                <div class="flashcard">
+                    <div class="p-3 front ">
+                        <img src="./assests/services_icons/product_icon.png">
+                        <p>PRODUCT MANAGEMENT</p>
                     </div>
-                    <a> <img src="./assests/services_icons/product_icon.png">
-                    </a>
-                    <p>PRODUCT MANAGEMENT</p>
+                    <!-- end front -->
+                    <div class="p-3 back ">
+                        <p>PRODUCT MANAGEMENT</p>
+                        <p class="content">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+                    </div>
+                    <!-- end back -->
                 </div>
+                <!-- end flashcard -->
             </div>
         </div>
     </div>
-    <div class="five">
+    <div class="portfolio">
         <h2>PORTFOLIO</h2>
         <div class="container">
             <div class="row">
@@ -105,10 +124,17 @@
         </div>
 
     </div>
-    <div class="six ">
+    <div class="contact">
         <h2>CONTACT US</h2>
+        <form>
+            <input type="text" placeholder="Name...">
+            <input type="email" placeholder="Email..."><br>
+            <textarea type="text" id="txtMg" placeholder=" Your message here... " style="height: 300px; ">
+            </textarea><br>
+            <input type="button" value="Button">
+        </form>
     </div>
-    <div class="footer ">
+    <div class=" footer ">
         <img src="assests/social_icons/twitter.png ">
         <img src="assests/social_icons/dribble.png ">
         <img src="assests/social_icons/facebook.png ">
