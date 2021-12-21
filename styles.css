@@ -103,6 +103,11 @@ input[type=reset] {
 
 .footer {
     text-align: center;
+    padding-top: 50px;
+}
+
+.footer p {
+    font-weight: bold;
 }
 
 .footer img {
@@ -110,13 +115,13 @@ input[type=reset] {
 }
 
 .col-md-3 {
-    padding: 10px 10px;
+    padding: 30px 50px;
 }
 
 .hold {
     padding: 150px;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 
@@ -144,9 +149,9 @@ input[type=reset] {
     font-weight: bold;
     z-index: 1;
     position: absolute;
-    left: 20%;
-    top: 40%;
-    font-size: xx-large;
+    left: 25%;
+    top: 30%;
+    font-size: x-large;
     color: white;
     background-color: black;
 }
