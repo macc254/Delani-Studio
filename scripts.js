@@ -30,3 +30,9 @@ $(document).ready(function() {
         $('.text').addClass('hide');
     });
 });
+
+// onclick button display message
+
+function showMessage() {
+    alert("Hello! We have have received your message!");
+}
