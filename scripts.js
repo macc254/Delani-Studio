@@ -18,16 +18,29 @@ $(document).ready(function() {
 
 //portfolios on hover displays text
 $(document).ready(function() {
-    $('#port a img').hover(function() {
+    $('#port1 a img').hover(function() {
         $(this).stop().animate({
             opacity: .7
         }, 700);
-        $('.text').removeClass('hide');
+        $('.text1').removeClass('hide1');
     }, function() {
         $(this).stop().animate({
             opacity: 1
         }, 900);
-        $('.text').addClass('hide');
+        $('.text1').addClass('hide1');
+    });
+});
+$(document).ready(function() {
+    $('#port2 a img').hover(function() {
+        $(this).stop().animate({
+            opacity: .7
+        }, 700);
+        $('.text2').removeClass('hide2');
+    }, function() {
+        $(this).stop().animate({
+            opacity: 1
+        }, 900);
+        $('.text2').addClass('hide2');
     });
 });
 

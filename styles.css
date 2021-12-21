@@ -118,11 +118,25 @@ input[type=reset] {
 
 /* portfolio style */
 
-#port {
+#port1,
+#port2,
+#port3,
+#port4,
+#port5,
+#port6,
+#port7,
+#port8 {
     position: relative;
 }
 
-.text {
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8 {
     font-weight: bold;
     z-index: 1;
     position: absolute;
@@ -131,6 +145,7 @@ input[type=reset] {
     color: white;
 }
 
-.hide {
+.hide1,
+.hide2 {
     display: none;
 }
