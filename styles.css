@@ -41,26 +41,6 @@ h2 {
     font-weight: normal;
 }
 
-
-/* hover #todo,
-#todev,
-#tomanage {
-    position: relative;
-    color: black;
-}
-
-.text {
-    font-weight: bold;
-    z-index: 1;
-    position: absolute;
-    left: 25%;
-    top: 50%;
-}
-
-.hide {
-    display: none;
-} */
-
 .portfolio {
     text-align: center;
 }
@@ -102,7 +82,7 @@ textarea {
     margin: 20px;
 }
 
-::placeholder {
+ ::placeholder {
     color: whitesmoke;
 }
 
@@ -133,4 +113,24 @@ input[type=reset] {
     padding: 150px;
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+
+/* portfolio style */
+
+#port {
+    position: relative;
+}
+
+.text {
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    color: white;
+}
+
+.hide {
+    display: none;
 }
